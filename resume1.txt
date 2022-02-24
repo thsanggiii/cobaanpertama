@@ -1,0 +1,21 @@
+**Resume materi Flutter-Basic Version and Branch Management**
+1. Versioning (Version Control), bertugas untuk mengatur versi dari source code program
+contohnya seperti sutu file dokumen yang direvisi berulang-ulang
+2. Git : salah satu version control untuk mengembangkan software secara bersama-sama (bisa collaboration)
+3. Pengenalan Github :
+   - git clone, membuat salinan repository lokal
+   - git status, untuk mengetahui  status dari reository lokal
+   - git add, untuk menambahkan file baru dari repository yang dipilih
+   - git commit, untuk menyimpan perubahan yang dilakukan, tetapi tidak ada perubahan pada remote repository
+   - git push, untuk mengirim perubahan file setelah di commit ke remote repository
+   - commit message, 
+4. Branch : percabangan, berfungsi untuk melindungi main project 
+   - git branch --list, untuk melihat selurh branch yang ada pada repository
+   - git branch <name_branch>, untuk membuat branch baru pada repository
+   - git checkout, menukar branch yang aktif dengan branch yang dipilih
+   - git merge, untuk menggabungkan branch yang aktif dan branch yang dipilih
+5. Dalam pembuatan project besar dan membutuhkan kolaborasi, tips yang dapat digunakan yaitu :
+   a. biarkan branch master/main tidak terdistribusi
+   b. hindari untuk mengedit langsung daerah developer, sebaiknya buat fitur-fitur baru
+   c. merge feature ke branch development
+   d. merge development ke master, apabila telah selesai dan sudah di testing
