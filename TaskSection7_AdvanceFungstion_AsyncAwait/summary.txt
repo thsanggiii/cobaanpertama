@@ -1,0 +1,25 @@
+RESUME FLUTTER (section 7) - Advance Function, Async - Await
+
+Lanjutan komponen dari bahasa pemrograman dart.
+g. fungsi, sebagai tempat untuk menuliskan perintah-perintah.
+   fungsi terbagi menjadi 2 jenis yaitu :
+   1). anonymous function, 
+       fungsi yaang tidak memiliki nama
+   2). arrow function,
+       fungsi yang memiliki nama/tidak
+       biasanya digunakan untuk memperingkat kode program
+h. async-await
+   - Async,
+     menjalankan beberapa proses tanpa perlu menunggu
+   - Await, 
+     menjalankan program apabila perintah di atasnya telah tereksekusi termasuk menunggu delay apabila terdapat delay
+i. tipe data future
+   berjalannya proses bidsa dikasi waktu dan durasi
+   membawa data return dari fungsi async
+   berjalan secara async
+j. collection, kumpulan data pada suatu tempat
+   a. list
+      menyimpan data secara berbaris
+      tiap data memiliki index
+   b. map
+      menyimpan data secara key-value yang berguna selayaknya index pada list
